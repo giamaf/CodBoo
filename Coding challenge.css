@@ -1,0 +1,98 @@
+/* Impostazioni generali */
+body{
+    background-image: url(Immaginies/background.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Logo + slogan */
+.macro{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: static;
+    width: 70%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+#logo{
+    width: 20%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+header{
+    text-align: center;
+    color: rgba(0, 255, 0, 0.8);
+    font-size: 24px;
+    margin-bottom: 0.75%;
+}
+
+/* Menù navigazione */
+nav{
+    text-align: center;
+    background-color: rgba(0, 255, 0, 1);
+    width: 75%;
+    height: fit-content;
+    padding: 0.75%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.navigazione{
+    font-size: 12px;
+    background-color: white;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 0.5px;
+    border-style: solid;
+}
+
+/* Informazioni monopattini */
+main{
+    font-size: 20px;
+    color: rgba(245, 245, 245, 1);
+    width: 75%;
+    margin: auto;
+}    
+
+.localizzazione{
+    color: lightgrey;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-inline: 1px;
+}
+
+.stato{
+    color: lightgrey;
+    font-size: 14px;
+}
+
+.barra1{
+    background-color: orange;
+    border-radius: 5px;
+    margin-top: 2px;
+    width: 40%;
+    height: 20px;
+    color: orange;
+}
+
+.barra2{
+    background-color: rgba(0, 255, 0, 0.8);
+    border-radius: 5px;
+    margin-top: 2px;
+    width: 60%;
+    height: 20px;
+    color: rgba(0, 255, 0, 0);
+}
+
+.barra3{
+    background-color: red;
+    border-radius: 5px;
+    margin-top: 2px;
+    width: 20%;
+    height: 20px;
+    color: red;
+}
